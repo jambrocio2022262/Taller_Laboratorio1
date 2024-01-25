@@ -33,3 +33,68 @@ header {
     text-decoration: none;
     padding: 50px;
   }
+
+  .pagina1 {
+    background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
+    border: 10px solid #142850;
+    margin-bottom: 10px;
+    padding: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .pagina2 {
+    background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
+    border: 10px solid #142850;
+    margin-bottom: 10px;
+    padding: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .pagina3 {
+    background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
+    border: 10px solid #142850;
+    margin-bottom: 10px;
+    padding: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .pagina4 {
+    background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
+    border: 10px solid #142850;
+    margin-bottom: 10px;
+    padding: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .pagina5 {
+    background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
+    border: 10px solid #142850;
+    margin-bottom: 10px;
+    padding: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
