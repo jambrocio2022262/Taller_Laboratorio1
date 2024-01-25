@@ -1,6 +1,6 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black ;
+    color: white;
     font-weight: 800;
 }
 
@@ -44,7 +44,10 @@ header{
   }
 
   .pagina1 {
-    background-image: url(https://scontent.fgua13-1.fna.fbcdn.net/v/t31.18172-8/23415485_10155877910279740_7702215865103316124_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=sE8L6_IKUScAX_prxjb&_nc_oc=AQlZLPzy_bISxNl868S_4E_x0beYm5-LLCptYBmbIWqEU53xgOogktE_8VyOqDiXMQKwMYgjpGl9snXmVX3BwpVD&_nc_ht=scontent.fgua13-1.fna&oh=00_AfATzszkUWtqvT1RtnEbt2ZhHX_R8gIgDA8f0RSULVz4Gw&oe=65D94D3D);
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(https://scontent.fgua13-1.fna.fbcdn.net/v/t31.18172-8/23415485_10155877910279740_7702215865103316124_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=sE8L6_IKUScAX_prxjb&_nc_oc=AQlZLPzy_bISxNl868S_4E_x0beYm5-LLCptYBmbIWqEU53xgOogktE_8VyOqDiXMQKwMYgjpGl9snXmVX3BwpVD&_nc_ht=scontent.fgua13-1.fna&oh=00_AfATzszkUWtqvT1RtnEbt2ZhHX_R8gIgDA8f0RSULVz4Gw&oe=65D94D3D);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -59,7 +62,10 @@ header{
     margin-top: 30px;
   }
   .pagina2 {
-    background-image: url(file:///C:/Users/Marco/Downloads/KNL-FLY.webp);
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(https://static.wixstatic.com/media/128120_64c428ede9a7485caffd0b64643e31b5~mv2.jpg/v1/fill/w_280,h_163,q_90/128120_64c428ede9a7485caffd0b64643e31b5~mv2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -92,6 +98,25 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
+  }
+
+  .pagina5 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(https://www.fconcordiaylibertad.org/wp-content/uploads/2018/03/Imagen-654.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
     margin-top: 30px;
   }
 
