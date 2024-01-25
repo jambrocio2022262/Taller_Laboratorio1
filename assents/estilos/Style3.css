@@ -1,8 +1,10 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black ;
+    font-weight: 800;
 }
 
-header {
+header, footer {
     background-color: #142850;
     color: #fff;
     padding: 20px;
@@ -35,21 +37,26 @@ header {
   }
 
   .pagina1 {
-    background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
-    border: 10px solid #142850;
+    background-image: url(https://scontent.fgua13-1.fna.fbcdn.net/v/t31.18172-8/23415485_10155877910279740_7702215865103316124_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=sE8L6_IKUScAX_prxjb&_nc_oc=AQlZLPzy_bISxNl868S_4E_x0beYm5-LLCptYBmbIWqEU53xgOogktE_8VyOqDiXMQKwMYgjpGl9snXmVX3BwpVD&_nc_ht=scontent.fgua13-1.fna&oh=00_AfATzszkUWtqvT1RtnEbt2ZhHX_R8gIgDA8f0RSULVz4Gw&oe=65D94D3D);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     margin-bottom: 10px;
     padding: 200px;
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    justify-content: flex-start;
     margin-top: 30px;
   }
 
   .pagina2 {
-    background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
-    border: 10px solid #142850;
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     margin-bottom: 10px;
     padding: 200px;
     text-align: left;
@@ -61,8 +68,6 @@ header {
   }
 
   .pagina3 {
-    background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
-    border: 10px solid #142850;
     margin-bottom: 10px;
     padding: 200px;
     text-align: left;
@@ -74,10 +79,8 @@ header {
   }
 
   .pagina4 {
-    background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
-    border: 10px solid #142850;
     margin-bottom: 10px;
-    padding: 200px;
+    padding: 300px;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -88,7 +91,9 @@ header {
 
   .pagina5 {
     background-image: url(https://www.nintenderos.com/wp-content/uploads/2023/02/peppa.jpg);
-    border: 10px solid #142850;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     margin-bottom: 10px;
     padding: 200px;
     text-align: left;
@@ -97,4 +102,8 @@ header {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+  }
+
+  .Sponsors{
+    color: black;
   }
