@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/Style3.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Kinal</title>
 </head>
 <body>
     <header>
         <nav>
-        <ul>
-            <img src="../resource/Logo.png" height="60px">
+        <ul class="flex items-center">
+            <img src="../resource/Logo.png" height="40px">
             <li><a href="">QUÍENES SOMOS</a></li>
             <li><a href="">EDUCACIÓN</a></li>
             <li><a href="">SPONSORS</a></li>
             <li><a href="">PARTNERS</a></li>
             <li><a href="">ESCULA TÉCNICA SUPERIOR</a></li>
-            <img src="../resource/Logo.png" height="60px">
+            <img src="../resource/Logo.png" height="40px">
         </ul>
         </nav>
     </header>
+
+
+    
+    <div class="w-full border relative h-[800px] mt-5">
+      <img class="w-full" src="../resource/Imagen1.png" alt="">
+      <img class="slide w-full absolute" data-index="0" src="../resource/Imagen1.png" alt="">
+      <img class="slide w-full absolute" data-index="1" src="../resource/Juegos.png" alt="">
+      <img class="slide w-full absolute" data-index="2" src="../resource/Imagen3.png" alt="">
+      <button id="prev" class="absolute top-[50%] border px-2 py-1 bg-black rounded mx-5">Siguiente</button>
+      <button id="next" class="absolute top-[50%] border px-2 py-1 bg-black rounded right-0 mx-5">anterior</button>
+    </div>
+
 
     <div class="pagina1">
         <h2>FUNDACIÓN KINAL</h2>
@@ -83,5 +96,6 @@
         </p>
       </div>
       <footer>FUNDACIÓN KINAL | 2023 ALL RIGHT RESERVED </footer>
+      <script src="../scrips/logicaKinal.js"></script>
 </body>
 </html>
